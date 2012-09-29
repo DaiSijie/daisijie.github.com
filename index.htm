@@ -1,0 +1,25 @@
+<html>
+	<head>
+	<title>Essai d'applet</title>
+	</head>
+		<body>
+			<p style="color:green;"><center>
+			<h1><b>Un applet W3C-style</b></h1>
+			<applet code="org.lwjgl.util.applet.AppletLoader" archive="lwjgl_util_applet.jar" codebase="." width="1080" height="720">
+ 				<param name="al_title" value="myslickgame"> 
+				<param name="al_main" value="org.newdawn.slick.AppletGameContainer"> 
+				<param name="game" value="basics.CirclesWorld">
+ 				<param name="al_jars" value="pressePapier.jar, lwjgl.jar, slick.jar, jdom-2.0.1.jar,jogg-0.0.7.jar,jorbis-0.0.15.jar"> 
+				
+				<param name="al_logo" value="appletlogo.png">
+				<param name="al_progressbar" value="appletprogress.gif">
+	
+ 				<param name="al_windows" value="natives-win32.jar">
+				<param name="al_mac" value="natives-mac.jar">
+				<param name="al_linux" value="natives-linux.jar"> 
+ 
+				<param name="separate_jvm" value="true"> 
+			</applet> 
+ 			</center></p>
+		</body>
+</html>
