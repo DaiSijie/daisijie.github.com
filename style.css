@@ -1,0 +1,56 @@
+body,html {
+  background-image:url(media/background_wall.png);
+  background-repeat: repeat;
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+h1{
+  font-family:Arial Black;
+  font-size:25px;
+  color:white;
+  text-align:center;
+}
+
+h2{
+  font size:16px;
+  color:red;
+  text-align:left;
+}
+
+a{
+ color:indigo;
+}
+
+#main{
+  background-image:url(media/background_horizontal.png);
+  background-position:center;
+  background-repeat:repeat-y;
+  min-height:100%;
+  margin:0;
+  padding:0;
+}
+
+#header{
+  top:0px;
+  text-align:center;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#info{
+  color:yellow;
+  width:680px;
+  margin-left:auto;
+  margin-right:auto;
+
+ text-align:justify;
+}
+
+#footer{
+ color:white;
+ text-align:center
+}
