@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <style type="text/css">
+      body { text-align:center;
+             margin:0 auto;
+             margin-left:0px;
+             margin-right:0px;
+             margin-top:10px;
+             margin-bottom:10px }
+    </style>
+    <title>MyGame Web</title>
+  </head>
+  <body text="#000000"
+        bgcolor="#FFFFFF"
+        link="#FF0000"
+        alink="#FF0000"
+        vlink="#FF0000">
+    <applet code="org.lwjgl.util.applet.AppletLoader" archive="gamelib/lwjgl_util_applet.jar, gamelib/lzma.jar" codebase="." width="1080" height="720">
+
+      <param name="al_title" value="MyGame">
+
+      <param name="al_main" value="org.newdawn.slick.AppletGameContainer">
+
+      <param name="game" value="com.circlesworld.game.GUI.CirclesWorld">
+
+      <param name="al_logo" value="gamelib/appletlogo.gif">
+
+      <param name="al_progressbar" value="gamelib/appletprogress.gif">
+
+      <param name="al_jars" value="gamelib/slick.jar, good.jar, gamelib/lwjgl.jar.pack.lzma, gamelib/jinput.jar.pack.lzma, gamelib/lwjgl_util.jar.pack.lzma, gamelib/jdom-2.0.1.jar, jorbis-0.0.15.jar, jogg-0.0.7.jar">
+
+      <param name="al_windows" value="gamelib/windows_natives.jar.lzma">
+
+      <param name="al_linux" value="gamelib/linux_natives.jar.lzma">
+
+      <param name="al_mac" value="gamelib/macosx_natives.jar.lzma">
+
+      <param name="al_solaris" value="gamelib/solaris_natives.jar.lzma">
+     </applet>
+  </body>
+</html>
