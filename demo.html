@@ -31,17 +31,17 @@
         </table>
       </div>
       <div id="info">
-        <applet code="org.lwjgl.util.applet.AppletLoader" archive="lwjgl_util_applet.jar" codebase="." width="300" height="300">
-          <param name="al_title" value="myslickgame">
+        <applet code="org.lwjgl.util.applet.AppletLoader" archive="gamelib/lwjgl_util_applet.jar, gamelib/lzma.jar" codebase="." width="300" height="300">
+          <param name="al_title" value="MyGame">
           <param name="al_main" value="org.newdawn.slick.AppletGameContainer">
           <param name="game" value="ch.maystre.gilbert.MyTest">
-          <param name="al_jars" value="HelloWord2.jar, lwjgl.jar, slick.jar">
-          <param name="al_logo" value="appletlogo.png">
-          <param name="al_progressbar" value="appletprogress.gif">
-          <param name="al_windows" value="natives-win32.jar">
-          <param name="al_linux" value="natives-linux.jar">
-          <param name="al_mac" value="natives-mac.jar">
-          <param name="separate_jvm" value="true">
+          <param name="al_logo" value="gamelib/appletlogo.gif">
+          <param name="al_progressbar" value="gamelib/appletprogress.gif">
+          <param name="al_jars" value="gamelib/slick.jar, gamelib/paradise.jar, gamelib/lwjgl.jar.pack.lzma, gamelib/jinput.jar.pack.lzma, gamelib/lwjgl_util.jar.pack.lzma">
+          <param name="al_windows" value="gamelib/windows_natives.jar.lzma">
+          <param name="al_linux" value="gamelib/linux_natives.jar.lzma">
+          <param name="al_mac" value="gamelib/macosx_natives.jar.lzma">
+          <param name="al_solaris" value="gamelib/solaris_natives.jar.lzma">
         </applet>
         <div id="footer">
           Made in october 2012 by Alain S. & Gilbert M. for infinity click.
