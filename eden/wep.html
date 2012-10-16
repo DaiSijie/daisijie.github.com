@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <style type="text/css">
+      body { text-align:center; 
+             margin:0 auto; 
+             margin-left:0px; 
+             margin-right:0px; 
+             margin-top:10px; 
+             margin-bottom:10px }
+    </style>
+  <title>MyGame Web-Site</title>
+  </head>
+  <body>
+       <applet code="org.lwjgl.util.applet.AppletLoader" archive="gamefiles/lwjgl_util_applet.jar, gamefiles/lzma.jar" codebase="." width="1080" height="720">
+
+      <param name="al_title" value="CirclesWorld">
+
+      <param name="al_main" value="org.newdawn.slick.AppletGameContainer">
+      
+      <param name="game" value="com.circlesworld.game.GUI.CirclesWorld">
+
+      <param name="al_logo" value="gamefiles/appletlogo.gif">
+
+      <param name="al_progressbar" value="gamefiles/appletprogress.gif">
+
+      <param name="al_jars" value="gamefiles/slick.jar, gamefiles/CirclesWorld.jar, gamefiles/lwjgl.jar.pack.lzma, gamefiles/jinput.jar.pack.lzma, gamefiles/lwjgl_util.jar.pack.lzma, gamefiles/jdom-2.0.1.jar, gamefiles/jogg-0.0.7.jar, gamefiles/jorbis-0.0.15.jar">
+
+      <param name="al_windows" value="gamefiles/windows_natives.jar">
+
+      <param name="al_linux" value="gamefiles/linux_natives.jar">
+
+      <param name="al_mac" value="gamefiles/macosx_natives.jar">
+
+      <param name="al_solaris" value="gamefiles/solaris_natives.jar">
+
+      <!-- Tags under here are optional -->
+ 
+      <!-- Version of Applet, secondary cache if used applet will start faster, version change will update applet, must be int or float -->
+      <!-- <param name="al_version" value="0.1">
+ -->
+ 
+      <!-- background color to paint with, defaults to white -->
+      <!-- <param name="boxbgcolor" value="#000000">
+ -->
+ 
+      <!-- foreground color to paint with, defaults to black -->
+      <!-- <param name="boxfgcolor" value="#ffffff">
+ -->
+ 
+      <!-- whether to run in debug mode -->
+      <!-- <param name="al_debug" value="true">
+ -->
+ 
+      <!-- whether to prepend host to cache path - defaults to true -->
+      <!-- <param name="al_prepend_host" value="true">
+ -->
+  </body>
+</html>
