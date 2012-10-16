@@ -16,6 +16,15 @@
     </script>
   </head>
   <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
     <div id="main">
       <div id="header">
         <table align="center" style="border-spacing:10px">
@@ -36,10 +45,10 @@
         <p>Begin with the HistoryMode. Find out hero's story and challenge the twenty levels. It starts with a tutorial and goes smoothly to very hard levels. Once you have enough of the HistoryMode,
         create your own maps and share them with your friends. Maps are XML based files and are really easy to make. An integrated debugger has been developed to help you fix your mistakes.
 
-        <p>If you're too hurried to <a href="download.html">download</a> the full game, you can try a <a href="demo.html">webstart demo</a>. But you can only play FreeMode on the full game(that is free of course)
-        Yo. Do not forget to download a gameguide, available in English or French.
+        <p>If you're too hurried to <a href="download.html">download</a> the full game, you can try a <a href="demo.html">webstart demo</a>. But you can only play FreeMode on the full game(that is free of course).
+        Do not forget to download a gameguide, available in English or French.
 
-        <p>Full and free <a href="download.html">source code</a> is available. Use it only in a non-commercial way. This game is our maturity project for Gymnase de Beaulieu in 2012. Under supervising of Mr. Thueller.
+        <p>Full and free <a href="download.html">source code</a> is available. Use it only in a non-commercial way. This game is our maturity project for Gymnase de Beaulieu in 2012, under supervising of Mr. Thueller.
         Coded in java using Slick 2D API by two friends. Please be aware that it is our first game.
 
         <h1>Good Play!</h1>
@@ -49,6 +58,7 @@
         <br>
         <br>
         <div id="footer">
+          <div class="fb-like" data-href="http://circlesworld.com" data-send="false" data-width="450" data-show-faces="false"></div>
           Made in october 2012 by Alain S. & Gilbert M. for infinity click.
           <p align="center"><img src="media/logo_InfinityClick.png"></p>
         </div>

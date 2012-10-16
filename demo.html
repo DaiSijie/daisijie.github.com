@@ -16,7 +16,7 @@
     </script>
   </head>
   <body>
-    <div id="main">
+    <div id="demo_main">
       <div id="header">
         <table align="center" style="border-spacing:10px">
           <tr>
@@ -27,26 +27,25 @@
           </tr>
         </table>
       </div>
-      <div id="info">
       <center>
-        <applet code="org.lwjgl.util.applet.AppletLoader" archive="gamelib/lwjgl_util_applet.jar, gamelib/lzma.jar" codebase="." width="300" height="300">
-          <param name="al_title" value="MyGame">
+        <applet code="org.lwjgl.util.applet.AppletLoader" archive="gamefiles/lwjgl_util_applet.jar, gamefiles/lzma.jar" codebase="." width="1080" height="720"alt="You need java to run this applet">
+          <param name="al_title" value="CirclesWorld">
           <param name="al_main" value="org.newdawn.slick.AppletGameContainer">
-          <param name="game" value="ch.maystre.gilbert.MyTest">
-          <param name="al_logo" value="gamelib/appletlogo.gif">
-          <param name="al_progressbar" value="gamelib/appletprogress.gif">
-          <param name="al_jars" value="gamelib/slick.jar, gamelib/paradise.jar, gamelib/lwjgl.jar.pack.lzma, gamelib/jinput.jar.pack.lzma, gamelib/lwjgl_util.jar.pack.lzma">
-          <param name="al_windows" value="gamelib/windows_natives.jar.lzma">
-          <param name="al_linux" value="gamelib/linux_natives.jar.lzma">
-          <param name="al_mac" value="gamelib/macosx_natives.jar.lzma">
-          <param name="al_solaris" value="gamelib/solaris_natives.jar.lzma">
+          <param name="game" value="com.circlesworld.game.GUI.CirclesWorld">
+          <param name="al_logo" value="gamefiles/appletlogo.gif">
+          <param name="al_progressbar" value="gamefiles/appletprogress.gif">
+          <param name="al_jars" value="gamefiles/slick.jar, gamefiles/CirclesWorld.jar, gamefiles/lwjgl.jar.pack.lzma, gamefiles/jinput.jar.pack.lzma, gamefiles/lwjgl_util.jar.pack.lzma, gamefiles/jdom-2.0.1.jar, gamefiles/jogg-0.0.7.jar, gamefiles/jorbis-0.0.15.jar">
+          <param name="al_windows" value="gamefiles/windows_natives.jar">
+          <param name="al_linux" value="gamefiles/linux_natives.jar">
+          <param name="al_mac" value="gamefiles/macosx_natives.jar">
+          <param name="al_solaris" value="gamefiles/solaris_natives.jar">
         </applet>
       <center>
-        <div id="footer">
-          Made in october 2012 by Alain S. & Gilbert M. for infinity click.
-          <p align="center"><img src="media/logo_InfinityClick.png"></p>
-        </div>
+      <div id="footer">
+        <br>
+        Made in october 2012 by Alain S. & Gilbert M. for infinity click.
+        <p align="center"><img src="media/logo_InfinityClick.png"></p>
       </div>
     </div>
   </body>
- </html>
+</html>
